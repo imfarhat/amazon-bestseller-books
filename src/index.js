@@ -421,7 +421,7 @@ const BookList = () => {
 const Heading = () => {
   return (
     <>
-      <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-center -mt-12 mb-4 p-8 bg-white rounded-b-xl">
+      <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-center -mt-12 mb-4 p-4 bg-white rounded-b-xl">
         Amazon Bestseller Books
       </h1>
     </>
@@ -440,7 +440,7 @@ const TopFiftyBooks = () => {
 const Book = ({ sl, title, img, author }) => {
   // Function to truncate the title if it exceeds 15 characters
   const truncateTitle = (title) => {
-    return title.length > 29 ? title.slice(0, 35) + "..." : title;
+    return title.length > 29 ? title.slice(0, 29) + "..." : title;
   };
 
   return (
