@@ -422,7 +422,7 @@ const Heading = () => {
   return (
     <>
       <h1 className="text-4xl font-bold text-center -mt-12 mb-4 p-8 bg-white rounded-b-xl">
-        Amazon Best Seller Books: The Top 50
+        Amazon Bestseller Books: The Top 50
       </h1>
     </>
   );
@@ -444,9 +444,7 @@ const Book = ({ sl, title, img, author }) => {
   };
 
   return (
-    <div
-      className="group flex flex-col items-center justify-center gap-3 mx-2 mb-2 -top-2 hover:-translate-y-2 transition ease-in cursor-pointer rounded-md bg-white"
-    >
+    <div className="group flex flex-col items-center justify-center gap-3 mx-2 mb-2 -top-2 hover:-translate-y-2 transition ease-in cursor-pointer rounded-md bg-white">
       <div className="relative z-[10]">
         <img
           src={img}
