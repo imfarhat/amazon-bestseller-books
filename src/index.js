@@ -440,7 +440,7 @@ const TopFiftyBooks = () => {
 const Book = ({ sl, title, img, author }) => {
   // Function to truncate the title if it exceeds 15 characters
   const truncateTitle = (title) => {
-    return title.length > 35 ? title.slice(0, 35) + "..." : title;
+    return title.length > 29 ? title.slice(0, 35) + "..." : title;
   };
 
   return (
@@ -459,8 +459,8 @@ const Book = ({ sl, title, img, author }) => {
         <div className="absolute w-8 h-12 rotate-[64.5deg] -top-1 -right-[6.8px]  bg-red-700 -z-[2]"></div>
       </div>
       <div className="flex flex-col items-center justify-center pb-2 px-2">
-        <h2 className="font-semibold">{truncateTitle(title)}</h2>
-        <h2>{author}</h2>
+        <h2 className="font-semibold mt-2">{truncateTitle(title)}</h2>
+        <h2 className="text-sm md:text-base">{author}</h2>
       </div>
     </div>
   );
