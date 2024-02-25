@@ -444,9 +444,7 @@ const Book = ({ sl, title, img, author }) => {
   };
 
   return (
-    <a
-      href={img}
-      target="_blank"
+    <div
       className="group flex flex-col items-center justify-center gap-3 mx-2 mb-2 -top-2 hover:-translate-y-2 transition ease-in cursor-pointer rounded-md bg-white"
     >
       <div className="relative z-[10]">
@@ -466,7 +464,7 @@ const Book = ({ sl, title, img, author }) => {
         <h2 className="font-semibold">{truncateTitle(title)}</h2>
         <h2>{author}</h2>
       </div>
-    </a>
+    </div>
   );
 };
 
