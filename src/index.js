@@ -363,7 +363,7 @@ const fiftiethBook = {
 
 const BookList = () => {
   return (
-    <section className="flex flex-wrap justify-start items-center gap-16 px-8 py-12">
+    <section className="flex flex-wrap justify-center items-center gap-16 px-8 py-12">
       <Book {...firstBook} />
       <Book {...secondBook} />
       <Book {...thirdBook} />
