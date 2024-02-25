@@ -62,7 +62,7 @@ const eighthBook = {
 
 const ninethBook = {
   sl: 9,
-  img: "https://images-na.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/I/81YkqyaFVEL._AC_UL600_SR600,400_.jpg",
+  img: "https://m.media-amazon.com/images/I/41C-012Es8L._SY445_SX342_.jpg",
   title:
     "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
   author: "James Clear",
