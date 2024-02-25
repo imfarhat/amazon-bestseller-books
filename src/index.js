@@ -62,7 +62,7 @@ const eighthBook = {
 
 const ninethBook = {
   sl: 9,
-  img: "https://images-na.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/I/81YkqyaFVEL._AC_UL600_SR600,400_.jpg",
+  img: "https://m.media-amazon.com/images/I/41C-012Es8L._SY445_SX342_.jpg",
   title:
     "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
   author: "James Clear",
@@ -449,7 +449,7 @@ const Book = ({ sl, title, img, author }) => {
         <img
           src={img}
           alt={title}
-          className="w-80 aspect-[2.78/4] object-cover  rounded-t-md"
+          className="w-80 aspect-[2.78/4] object-cover rounded-t-md rounded-md m-2"
         />
         <div className="absolute aspect-square h-24 rounded-full -top-10 -left-[2.5rem] bg-yellow-400 -z-[1]"></div>
 
