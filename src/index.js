@@ -421,8 +421,8 @@ const BookList = () => {
 const Heading = () => {
   return (
     <>
-      <h1 className="text-4xl font-bold text-center -mt-12 mb-4 p-8 bg-white rounded-b-xl">
-        Amazon Bestseller Books: The Top 50
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center -mt-12 mb-4 p-8 bg-white rounded-b-xl">
+        Amazon Bestseller Books
       </h1>
     </>
   );
@@ -449,7 +449,7 @@ const Book = ({ sl, title, img, author }) => {
         <img
           src={img}
           alt={title}
-          className="w-80 aspect-[2.78/4] object-cover rounded-t-md rounded-md m-2"
+          className="w-80 aspect-[2.78/4] object-cover  rounded-t-md"
         />
         <div className="absolute aspect-square h-24 rounded-full -top-10 -left-[2.5rem] bg-yellow-400 -z-[1]"></div>
 
