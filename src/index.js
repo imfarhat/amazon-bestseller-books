@@ -449,6 +449,7 @@ const Book = ({ sl, title, img, author }) => {
         <img
           src={img}
           alt={title}
+          loading="lazy"
           className="w-80 aspect-[2.78/4] object-cover rounded-t-md rounded-md m-2"
         />
         <div className="absolute aspect-square h-24 rounded-full -top-10 -left-[2.5rem] bg-yellow-400 -z-[1]"></div>
