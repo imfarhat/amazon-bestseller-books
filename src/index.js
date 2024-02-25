@@ -440,7 +440,7 @@ const TopFiftyBooks = () => {
 const Book = ({ sl, title, img, author }) => {
   // Function to truncate the title if it exceeds 15 characters
   const truncateTitle = (title) => {
-    return title.length > 29 ? title.slice(0, 29) + "..." : title;
+    return title.length > 26 ? title.slice(0, 26) + "..." : title;
   };
 
   return (
